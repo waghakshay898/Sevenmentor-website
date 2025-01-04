@@ -1,0 +1,1142 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+html{
+scroll-behavior:smooth;
+}
+#section1{
+display: inline-flex;
+display: none;
+}
+.container{
+    position: relative;
+}
+
+.up{
+text-decoration: none;
+border: 1px solid orange;
+border-radius: 10px;
+color:orange;
+background: transparent;
+padding: 12px;
+position: sticky;
+top: 90%;
+left: 50%;
+z-index: 1;
+}
+.up:hover{
+background-color: orange;
+color: white;
+border:2px solid orange;
+}
+.sec1-icon1{
+display:flex;
+
+
+}
+.sec1-icon1 .icon{
+display: flex;
+list-style: none;
+}
+.sec1-icon1 .icon li{
+text-decoration: none;
+font-size: 12px;
+
+}
+.sec1-icon1 .icon li a i{
+color: rgb(11, 81, 221);
+margin: 0px 1px;
+
+}
+.sec1-icon2{
+display:flex;
+position: absolute;
+right: 5px;
+
+
+}
+.sec1-icon2 .icon2{
+display: flex;
+list-style: none;
+column-gap: 5px;
+}
+.sec1-icon2 .icon2 li{
+margin: 0px 4px;
+color: orange;
+font-size: 13px;
+
+}
+.sec1-icon2 .icon2 li a i{
+color: rgba(68, 166, 241, 0.915);
+margin-right: 5px;
+}
+/*---------------section 1 end --------------------*/
+
+
+.section2{
+display: flex;
+position: sticky;
+
+}
+
+.sec2-menu-logo a i{
+position: absolute;
+top: 20px;
+left: 5px;
+font-size: 27px;
+color: orange;
+
+}
+.sec2-logo{
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+background-color: white;
+}
+.sec2-logo img{
+width:60px;
+}
+.nav1{
+display:flex;
+display: none;
+position: fixed;
+top: 35px;
+right: 1%;
+
+}
+.sec2-hole{
+list-style: none;
+display: flex;
+}
+.sec2-hole li {
+font-size: 12px;
+padding: 5px;
+
+}
+.sec2-hole .man>span{
+font-weight: 800;
+}
+.sec2-hole li ul li{
+list-style: none;
+font-size: 8px;
+border: none;  
+z-index: 1;
+}
+.sec2-hole li ul li span{
+color:darkorchid;
+font-weight: 800;
+margin-right: 4px;
+
+
+}
+.sec2-hole .trending>span{
+background-color: rgb(255, 119, 0);
+
+}
+.sec2-tren{
+background-color: white;
+}
+.sec2-hole .trending .sec2-tren{
+display: none;
+
+}
+.sec2-hole .trending:hover .sec2-tren{
+display: block;
+}
+
+.sec2-hole .man>span{
+    border-radius: 5px;
+}
+.sec2-hole .man>span:hover{
+background-color: rgb(116, 156, 244);
+transition: 0.5s;
+
+
+}
+.sec2-hole .home .sec2-tren{
+display: none;
+
+
+}
+.sec2-hole .home:hover .sec2-tren{
+display: block;
+}
+.sec2-hole .it .sec2-tren{
+display: none;
+
+
+}
+.sec2-hole .it:hover .sec2-tren{
+display: block;
+}
+.sec2-hole .sap .sec2-tren{
+display: none;
+
+
+}
+.sec2-hole .sap:hover .sec2-tren{
+display: block;
+}
+.sec2-hole .hr .sec2-tren{
+display: none;
+
+
+}
+.sec2-hole .hr:hover .sec2-tren{
+display: block;
+}
+.sec2-hole .fashion .sec2-tren{
+display: none;
+
+
+}
+.sec2-hole .fashion:hover .sec2-tren{
+display: block;
+}
+.sec2-hole .lang .sec2-tren{
+display: none;
+
+
+}
+.sec2-hole .lang:hover .sec2-tren{
+display: block;
+}
+.sec2-hole .online .sec2-tren{
+display: none;
+
+
+}
+.sec2-hole .online:hover .sec2-tren{
+display: block;
+}
+.sec2-hole li span{
+padding: 5px;
+}
+/*-------------section 2 end ------------------*/
+.sec3{
+background-image: url('./assests/unnamed.jpg');
+height: 300px;
+background-size:100% 100%;
+background-repeat: no-repeat;
+padding: 5%;
+}
+.sec3 .content{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 5%;
+}
+.sec3 .content .search{
+height: 25px;
+display: flex;
+margin: 5px 0px ;
+}
+.sec3 .content .search input{
+width: 250px;
+border: none;
+outline: none;
+padding: 5px;
+}
+.sec3 .content .search .sec3-icon{
+background-color:rgba(55, 157, 229, 0.778);
+padding: 5px 15px;
+color: white;
+}
+.sec3 .content .name{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.sec3 .content .name h1{
+font-size: 30px;
+color: orange;
+text-shadow: 1px 1px white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 5px 0px ;
+}
+.sec3 .content .name hr{
+width: 30%;
+height: 2px;
+border: none;
+border-radius: 20px;
+background-color: orange;
+text-align: center;
+margin: 5px 0px ;
+}
+.sec3 .content .name p{
+color: white;
+font-size: 15px;
+margin: 3px 0px ;
+}
+/*------------------------section 3 end -----------------------*/
+.sec4{
+display: flex;
+background-color: rgb(255, 123, 0);
+width: 80%;
+color: white;
+padding: 15px;
+/* padding-right: 20px; */
+margin-left: 35px;
+margin-bottom: 1px;
+
+}
+.first{
+margin-top: 20px;
+}
+.sec4 .call-icon{
+display: flex;
+align-items: center;
+font-size: 20px;
+margin-right: 18px;
+
+}
+.sec4 .course-number{
+font-size: 15px;
+font-family: sans-serif;
+
+
+}
+/*-----------section 4 end --------------------*/
+.section5 .sec5-back{
+background-image: url('./assests/classroom-2093743_640.jpg');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+
+}
+.section5 .sec5-back .laer{
+background-color: rgba(0, 0, 0, 0.352);
+}
+.sec5{
+background-color: white;
+margin-bottom: 10%;
+}
+.sec5-content{
+margin-left: 5%;
+}
+.sec5-content h1{
+font-family: sans-serif;
+font-size: 30px;
+
+}
+.bar{
+width: 100px;
+height: 5px;
+background-color: rgb(245, 166, 97);
+margin-top: 10px;
+margin-left: 15px;
+position: relative;
+
+}
+.bar::before{
+content: "";
+width: 14px;
+height: 14px;
+position: absolute;
+top: -5px;
+left: 40px;
+border-radius: 50%;
+background-color: orangered;
+}
+.sec5-content p{
+margin-top: 15px;
+color: rgb(151, 151, 151);
+}
+.sec5-content button{
+background-color: rgb(222, 119, 30);
+border: none;
+font-weight: 500;
+padding: 10px;
+border-radius: 30px;
+color: white;
+margin-top: 20px;
+
+}
+.sec5-form{
+color: white;
+width: 85%;
+margin-left: 5%;
+margin-top: 5%;
+border-top-left-radius: 50px;
+border-bottom-right-radius: 50px;
+box-shadow: 4px 4px 9px rgba(255, 166, 0, 0.703), -4px -4px 9px rgba(255, 166, 0, 0.703);
+margin-bottom: 40px;
+}
+.sec5-form .sec5-top{
+width: 100%;
+text-align: center;
+padding: 30px;
+height: 100px;
+background-color: rgba(88, 88, 249, 0.952);
+border-top-left-radius: 50px;
+font-size: 18px;
+
+}
+.sec5-form .sec5-botom{
+width: 100%;
+background-color: rgb(255, 140, 25);
+padding: 23px;
+border-bottom-right-radius: 50px;
+display: flex;
+flex-direction: column;
+align-items: start;
+}
+.sec5-form .sec5-botom label{
+
+font-weight: 700;
+font-family: sans-serif;
+
+}
+.sec5-form .sec5-botom input{
+width: 100% !important;
+outline: none;
+border: none;
+border-radius: 10px;
+height: 40px;
+margin-top: 2.5%;
+}
+.sec5-form .sec5-botom select{
+width: 100% !important;
+border: none;
+outline: none;
+height: 40px;
+border-radius: 10px;
+}
+.sec5-form .sec5-botom button{
+border: 1px solid white;
+border-radius: 10px;
+margin-top: 4%;
+height: 40px;
+width: 310px;
+background: transparent;
+}
+.sec5-career .heading{
+color: white;
+background: transparent;
+text-align: center;
+margin: auto 2%;
+position: relative;
+font-family: sans-serif;
+}
+.sec5-career .heading h1{
+font-weight: 700;
+margin-bottom:32px;
+font-size: 30px;
+}
+
+.sec5-bar{
+width: 100px;
+height: 5px;
+background-color: rgb(245, 166, 97);
+margin-top: 10px;
+margin-left: 40%;
+position: relative;
+/* margin-top: 2%; */
+margin-bottom: 30px;
+
+}
+.sec5-bar::before{
+content: "";
+width: 14px;
+height: 14px;
+position: absolute;
+top: -5px;
+left: 40px;
+border-radius: 50%;
+background-color: orangered;
+}
+.sec5-career .heading p{
+font-weight: 500;
+line-height: 25px;
+font-size: 14px;
+}
+.sec5-cout{
+padding-bottom: 50px;
+}
+.sec5-cout1{
+display:inline-flex;
+justify-content: space-evenly;
+margin-top: 30px;
+
+}
+.sec5-cout2{
+display:inline-flex;
+justify-content: space-evenly;
+margin-top: 30px;
+}
+.sec5-cout .class{
+background-color: rgba(180, 86, 3, 0.578);
+width: 45.5%;
+padding: 30px;
+font-size: 20px;
+color: white;
+font-family: sans-serif;
+margin-left: 20px;
+
+}
+.sec5-cout .class h2{
+font-size: 32px;
+margin-bottom: 20px;
+}
+.sec5-cout .class p{
+font-size: 16px;
+}
+
+
+.sec5-cout .line{
+width:60px;
+height: 5px;
+background-color: rgb(79, 79, 254);
+border-radius: 15px;
+margin-bottom: 20px;
+}/**------------section 5 end ------------------------------------*/
+
+.sec6-heading{
+color: black;
+background: transparent;
+text-align: center;
+margin: auto 2%;
+position: relative;
+font-family: sans-serif;
+margin-top: 60px;
+}
+.sec6-heading h1{
+font-weight: 700;
+margin-bottom:32px;
+font-size: 30px;
+}
+
+.sec5-bar{
+width: 100px;
+height: 5px;
+background-color: rgb(245, 166, 97);
+margin-top: 10px;
+margin-left: 43%;
+position: relative;
+/* margin-top: 2%; */
+margin-bottom: 30px;
+
+}
+.sec5-bar::before{
+content: "";
+width: 14px;
+height: 14px;
+position: absolute;
+top: -5px;
+left: 40px;
+border-radius: 50%;
+background-color: orangered;
+}
+.sec6-heading p{
+font-weight: 500;
+line-height: 25px;
+font-size: 14px;
+font-family: sans-serif;
+word-spacing: 3px;
+color: gray;
+font-size: 14px;
+
+}
+
+
+
+.sec6-box .box1{
+border: 1px solid rgb(184, 182, 182);
+width:380px; 
+position: relative;
+box-shadow: 0.5px 0.5px 5px rgb(55, 55, 55);
+margin-left: 5px;
+margin-top: 30px;
+margin-bottom: 10px;
+padding: 5px;
+}
+
+.sec6-box .box1::before{
+content: '';
+height: 5px;
+width: 0%;
+background-color: blue;
+position: absolute;
+bottom: 0;
+left: 0;  
+transition: 0.5s;
+
+}
+.sec6-box .box1:hover::before{
+transition: 0.5s ;
+width: 100%;
+}
+
+
+
+.sec6-box .box1 .box1-img{
+margin-bottom: 30px;
+
+}
+.sec6-box .box1 .box1-img .svg{ 
+background-size: contain;
+width: 200px;
+margin-left: 40px;
+background: transparent;
+filter: drop-shadow(1px 1px 4px rgba(111, 111, 254, 0.888));
+
+}
+.sec6-box .box1 .box1-img .img1{
+width: 70px;
+position: absolute;
+top: 55px;
+left: 175px;
+
+}
+.sec6-box .box1 .box1-img:hover{
+transform: rotate(-0.98turn);
+transition: 1s;
+
+}
+.sec6-heading h2{
+font-family: sans-serif;
+margin-bottom: 20px;
+}
+.sec6-box .box1 .box1-cont {
+margin: 3px 6px;
+margin-bottom: 30px;
+}
+
+/*----------------section 6 end */
+
+.sec7 .sec7-corurs{
+display: grid;
+grid-template-columns: repeat(1,1fr);
+margin-left: 10%;
+
+}
+.sec7-heading h1{
+text-align: center;
+
+}
+.sec7 .sec7-corurs .coru1{
+width: 80%;
+/* border: 1px solid rgb(175, 175, 175); */
+padding: 10px;
+height: 100px;
+margin: 3%;
+box-shadow: 0.5px 0.5px 8px rgba(0, 0, 0, 0.498);
+
+
+}
+.sec7 .sec7-corurs .coru1 img{
+width: 100%;
+height: 100%;
+background-color: white;
+background: transparent;
+object-fit: contain;
+}
+/*--------section 7 end ------------------*/
+.sec8{
+background-color: rgba(172, 221, 205, 0.548);
+padding-bottom: 20px;
+}
+.sec8-heading h1{
+text-align: center;
+font-size: 32px;
+padding-top: 20px;
+
+}
+.sec8-heading p{
+text-align: center;
+font-size: 14px;
+margin-bottom: 20px;
+}
+
+.sec8-box1{
+width: 330px;
+background-color: white;
+margin: auto;
+margin-top: 30px;
+margin-bottom: 20px;
+position: relative;
+padding: 10px;
+padding-left: 0;
+box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.333);
+}
+.sec8-box1:hover{
+transition: 3s;
+margin-top: -5px;
+margin-bottom: 10px;
+}
+.sec8-box1 span{
+background-color: orange;
+padding: 5px;
+font-size: 10px;
+color: white;
+font-weight: 600;
+}
+.sec8-box1:hover span{
+background-color: rgb(38, 124, 244);
+}
+.sec8-box1 h2{
+text-align: center;
+margin: 30px auto;
+}
+.sec8-box1 hr{
+width: 80%;
+margin: 0 auto;
+}
+.sec8-box1 .icon{
+text-align: center;
+color: gold;
+margin: 15px auto;
+}
+.sec8-box1 p{
+color: gray;
+text-align: center;
+font-family: sans-serif;
+font-size: 13px;
+margin: 0px 10px;
+margin-top: 30px;
+}
+.sec8-box1 button{
+outline: none;
+border: none;
+background-color: orange;
+padding: 10px;
+color: white;
+margin: 20px auto;
+margin-left: 110px;
+}
+/*----section 8 end ----------*/
+.sec9{
+background-color: white;
+} 
+/*-----section 9 end ------*/
+
+.section10 .laer{
+background-color: rgba(0, 0, 0, 0.651);
+}
+.sec10{
+background-image: url('/assests/laptop.jpg');
+background-size: 100% 100%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+
+
+}
+.sec10 .sec8-heading{
+color: white;
+font-family: sans-serif;
+}
+.sec10 .sec8-heading p{
+width: 80%;
+background-color: rgba(193, 127, 4, 0.927);
+margin: 0 auto;
+background-size: contain;
+border-radius: 30px;
+font-size: 12px;
+font-weight: 700;
+animation: blink 1.5s infinite;
+animation-fill-mode: both;
+margin-bottom: 30px;
+padding: 5px;
+}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: 1;}
+100%{opacity: 0;}
+}
+
+.sec10-from{
+width: 90%;
+background-color: rgb(6, 4, 3);
+padding: 20px;
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+align-items: start;
+box-shadow: 4px 4px 9px  rgba(255, 255, 255, 0.884),-4px -4px 9px rgba(255, 255, 255, 0.842) ;
+margin-left: 30px;
+
+}
+.sec10-from div{
+width: 100%;
+}
+.sec10-from div label{
+color: white;
+font-weight: 800;
+font-family: sans-serif;
+
+}
+.sec10-from  div input{
+width: 100%;
+outline: none;
+border: none;
+border-radius: 10px;
+height: 40px;
+}
+.sec10-from select{
+width: 100%;
+border: none;
+outline: none;
+height: 40px;
+border-radius: 10px;
+}
+.sec10-from button{
+color: white;
+border: 1px solid white;
+border-radius: 10px;
+margin-top: 20px;
+height: 40px;
+width: 100%;
+background-color: orange;
+margin-bottom: 50px;
+
+}
+
+
+.sec11-top{
+margin-top: 50px;
+}
+.sec11-top .first{
+width: 100%;
+background-color: rgb(255, 136, 0);
+color: white;
+padding: 15px;
+font-size: 20px;
+text-align: center;
+}
+.sec11-top .second{
+width: 100%;
+background-color: black;
+padding: 15px;
+text-align: center;
+
+}
+
+.sec11-top .second a i{
+border: 1px solid rgb(105, 104, 104);
+border-radius: 50%;
+padding: 10px;
+color:#FFF;
+font-size: 18px;
+}
+/*-----------------------------secton 10 end -------------------------*/
+
+.sec11 .hr{
+border: none;
+width: 100%;
+height:2px;
+background-color: rgb(255, 98, 0);
+}
+.sec11-botom {
+background-color: rgb(28, 28, 28);
+color: white;
+line-height: 30px;
+font-family: sans-serif;
+}
+.sec11-botom .about{
+padding: 20px;
+position: relative;
+}
+.sec11-botom .about h3{
+font-size: 18px;
+}
+.about h3::before{
+content: "";
+width: 35%;
+height:2px;
+background-color: rgb(255, 98, 0);
+position: absolute;
+top: 50px;
+}
+.sec11-botom .about .about-ul{
+list-style: none;
+margin-top: 10px;
+}
+.sec11-botom .about .about-ul li{
+font-family: sans-serif;
+font-size: 13px;
+color: #FFFFFFB3;
+}
+
+.about .about-ul li i{
+margin-right: 10px;
+font-size: 12px;
+}
+.about .about-ul li b{
+font-size: 14px;
+
+}
+.about .about-ul hr{
+width: 300px;
+}
+.contect {
+background-color: rgb(28, 28, 28);
+color: #FFFFFFB3;
+line-height: 30px;
+font-family: sans-serif;
+padding-left: 20px;
+
+}
+.contect .contect-ul li span{
+font-size: 14px;
+}
+.contect .contect-ul li{
+list-style: none;
+font-size: 12px;
+font-weight: 500;
+}
+.contect .contect-ul li i{
+margin-right: 5px;
+}
+.last{
+background-color: rgb(252, 149, 38);
+text-align: center;
+color: #FFF;
+font-size: 12px;
+padding: 5px;
+font-weight: 500;
+font-family: sans-serif;
+letter-spacing: .5px;
+
+}
+
+
+
+
+
+
+
+
+@media (min-width:767px) {
+
+.sec3{
+display: flex;
+align-items: center;
+padding: 40px;
+}
+.sec3 .content .search input{
+    width: 400px;
+
+}
+.sec3 .content .name h1{
+    font-size: 35px;
+}
+.sec3 .content .name p{
+    font-size: 15px;
+    font-weight: 400;
+}/*---------------------------section 3 end ------------------*/
+.section4{
+    display:inline-flex;
+    margin-top: -20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.first{
+    margin-top: 0;
+}
+.sec4{
+    margin-left: 1px;
+    padding: 5px;
+}
+.sec4 .call-icon{
+    font-size: 20px;
+}
+.sec4 .course-number{
+    font-size: 10px;
+}/*----------------------section 4 end --------*/
+.sec5-content{
+    margin-top: 70px;
+    margin-left: 5%;
+    word-spacing: 10px;
+}
+.sec5-content h1{
+    font-size: 25px;
+    
+}
+.sec5-form {
+    width: 50%;
+    margin-right: 2%;
+    
+}
+.sec5-career .heading p{
+    font-size: 18px;
+}
+.sec5-cout .class{
+    width: 50%;
+    padding: 30px;
+    margin-left:70px;
+    margin-top: 50px;
+    
+}
+.sec5-cout{
+    margin-left: 70px;
+}/*----------------section 5 end ----------*/
+.sec6-box .box1{
+    margin-left: 200px;
+    }/*----------------------section 6 end --------------------------------*/
+    .sec8-heading p{
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+}
+/*-----------------------section 8 end ------------------------*/
+.sec10 .sec8-heading p{
+padding: 5px;
+font-size: 16px;
+
+}
+.sec10-from{
+    width: 100%;
+    margin-top: 30px;
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 0;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.sec10-from div{
+    margin-right: 10px;
+}
+/*--------------- section 10 end ---------*/ 
+.sec11-top .first{
+    text-align: center;
+    font-size: 30px;
+}
+
+}
+/************************* media 768 end **********************************************---*/
+@media (min-width:1024px) {
+
+#section1{
+    display: inline-flex;
+}
+/*---------------section 1 end ---------------------*/
+.container{
+    position: relative;
+}
+.section2{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.sec2-menu-logo{
+    display: none;
+}
+.sec2-logo{
+    justify-content: left;
+}
+.nav1{
+    display: flex;
+}
+/*---------section 2 end ------------*/
+.sec3{
+    background-size: 100% 100%;
+}
+.sec3 .content .search input{
+    width: 450px;
+
+}/*------------section 3 end --------------*/
+
+.sec4{
+    padding: 15px;
+}
+/*----------section 4 end-------*/
+.sec5{
+    display: inline-flex;
+}
+.sec5-form{
+    margin-left: 10px;
+}
+.sec5-cout .class{
+    margin-left: 40px;
+}
+
+.sec5-cout{
+    display: inline-flex;
+    justify-content: space-evenly;
+
+}
+
+
+/*---------------------------section 5end  --------------------------*/
+.sec6-box{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    
+}
+.sec6-box .box1{
+    margin-left: 10px;
+
+}
+.sec6-box .box1 .box1-img .img1{ 
+    left: 140px;
+    
+
+}/**--------section 6  end --------------------------------------*/
+.sec7 .sec7-corurs{
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 50px;
+
+}
+/*-----------section 7 end -------------------*/
+.sec8-heading p{
+    font-size: 18px;
+}
+.sec8-hole{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0 15px;
+    padding: 0 auto;
+}
+.sec8-hole .sec8-box1{
+    margin-left: 20px;
+}
+/*------------section 8 end -------------------*/
+.sec11-top{
+    display:inline-flex;
+    flex-direction: row;
+    width: 100%;
+}
+.sec11-top .second{
+    width: 80%;
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    
+}
+.sec11-botom{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.contect .contect-ul {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 5px auto;
+    
+}
+.contect ul li{
+    margin-left: 60px;
+    
+}
+
+}
+/*  end of code  */
+
+
+
+
+
+
+
